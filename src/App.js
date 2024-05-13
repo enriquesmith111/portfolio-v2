@@ -2,9 +2,11 @@ import './index.css';
 import Portfolio from './Components/Portfolio';
 import { Toggle } from './Components/Toggle';
 import { useEffect, useRef, useState } from 'react';
+import useLocalStorage from 'use-local-storage';
 
 function App() {
-  const [isLight, setIsLight] = useState(false)
+  const preference = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const [isLight, setIsLight] = useLocalStorage('isLight', preference)
   const mouseCursorRef = useRef(null) // use ref instead of document finder in React
   const [clientX, setClientX] = useState(window.innerWidth / 2)// Center of screen X
   const [clientY, setClientY] = useState(window.innerHeight / 2); // Center of screen Y
@@ -13,13 +15,21 @@ function App() {
     const move = (e) => {
       const x = e.clientX || 0;
       const y = e.clientY || 0;
-      // always set the variable with useState if dont want problems with errors
-      setClientX(x);
-      setClientY(y);
+
+      // Get the scroll position
+      const scrollX = window.pageXOffset || document.documentElement.scrollLeft;
+      const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+
+      // Calculate the actual cursor position relative to the document
+      const actualX = x + scrollX;
+      const actualY = y + scrollY;
+
+      setClientX(actualX);
+      setClientY(actualY);
 
       if (mouseCursorRef.current) {
-        mouseCursorRef.current.style.left = `${x}px`;
-        mouseCursorRef.current.style.top = `${y}px`;
+        mouseCursorRef.current.style.left = `${actualX}px`;
+        mouseCursorRef.current.style.top = `${actualY}px`;
       }
     };
 

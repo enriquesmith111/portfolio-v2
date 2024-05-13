@@ -1,0 +1,23 @@
+.about-container {
+    padding: 50px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.about-text {
+    color: var(--primary-text-color);
+    max-width: 50%;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--secondary-text-color);
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--primary-text-color);
+}
