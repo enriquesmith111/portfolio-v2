@@ -55,14 +55,14 @@ export default function Banner() {
 
     return (
         <div className='banner'>
-            <container>
+            <div className='container'>
                 <h1 className='hello-world'
                     ref={helloWorldRef}
                     onMouseOver={null}>
                     {text}
                 </h1>
                 <h2>I'm a web developer</h2>
-            </container>
+            </div>
         </div >
     )
 }

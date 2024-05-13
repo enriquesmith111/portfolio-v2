@@ -1,38 +1,44 @@
 import './index.css';
 import Portfolio from './Components/Portfolio';
-import { useState } from 'react';
+import { Toggle } from './Components/Toggle';
+import { useEffect, useRef, useState } from 'react';
 
 function App() {
-  const mouseCursor = document.getElementById('mouse-cursor');
+  const [isLight, setIsLight] = useState(false)
+  const mouseCursorRef = useRef(null) // use ref instead of document finder in React
   const [clientX, setClientX] = useState(window.innerWidth / 2)// Center of screen X
   const [clientY, setClientY] = useState(window.innerHeight / 2); // Center of screen Y
-  const RETRY_TIMEOUT = 100; // Time in milliseconds to wait before retrying
 
-  document.body.onpointermove = event => {
-    try { // Use an empty object as default
-      mouseCursor.style.left = `${clientX}px`;
-      mouseCursor.style.top = `${clientY}px`;
-      setClientX(clientX)
-      setClientY(clientY)
-    } catch (error) {
-      // Set default coordinates and schedule retry
-      mouseCursor.style.left = `${setClientX}px`;
-      mouseCursor.style.top = `${setClientY}px`;
+  useEffect(() => {
+    const move = (e) => {
+      const x = e.clientX || 0;
+      const y = e.clientY || 0;
+      // always set the variable with useState if dont want problems with errors
+      setClientX(x);
+      setClientY(y);
 
-      setTimeout(() => {
-        // Simulate another pointermove event (replace if needed for specific event)
-        document.body.dispatchEvent(new PointerEvent('pointermove'));
-      }, RETRY_TIMEOUT);
+      if (mouseCursorRef.current) {
+        mouseCursorRef.current.style.left = `${x}px`;
+        mouseCursorRef.current.style.top = `${y}px`;
+      }
+    };
 
-      console.warn("Failed to update cursor position:", error);
-    }
-  };
+    document.addEventListener('mousemove', move);
+    document.addEventListener('touchmove', move);
 
+    return () => {
+      document.removeEventListener('mousemove', move);
+      document.removeEventListener('touchmove', move);
+    };
+  }, []);
 
   return (
-    <div className="App">
+    <div className="App" data-theme={isLight ? 'light' : 'dark'}>
+      <Toggle
+        isChecked={isLight}
+        handleChange={() => setIsLight(!isLight)} />
       < Portfolio />
-      <div id='mouse-cursor' disabled></div>
+      <div id='mouse-cursor' ref={mouseCursorRef}></div>
     </div>
   );
 }

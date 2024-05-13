@@ -1,6 +1,5 @@
 .banner {
     z-index: 3;
-    background-color: rgba(0, 0, 0, 1);  
     backdrop-filter: blur(5px);
     display: flex;
     height: 100vh;
@@ -10,7 +9,7 @@
 
 .banner h1 { 
     z-index: 3;
-    color: rgb(182, 251, 201);
+    color: var(--banner-text-color);
     font-size: 6rem;
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
@@ -20,30 +19,30 @@
 }
 
 .banner h1:hover {
-    color: rgb(255, 255, 255);
+    color: var(--primary-text-color);
 
 }
 
 h2 {
     z-index: 3;;
-    color: rgb(182, 251, 201);
+    color: var(--banner-text-color);
     font-size: 1rem;
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
 }
 
 
-@keyframes glow {
+/* @keyframes glow {
     from {
-        text-shadow: 0 0 10px #9ee0a8, 0 0 15px #ffffff, 0 0 20px #00e600, 0 0 25px #00e61b;
+        text-shadow: 0 0 10px var(--banner-glow-1), 0 0 15px var(--banner-glow-2), 0 0 20px var(--banner-glow-3), 0 0 25px var(--banner-glow-4);
     }
     to {
-        text-shadow: 0 0 20px #96d395, 0 0 25px #4dff65, 0 0 30px #4dff6e, 0 0 35px #4dff6b;
+        text-shadow: 0 0 20px var(--banner-glow-4), 0 0 25px var(--banner-glow-3), 0 0 30px var(--banner-glow-2), 0 0 35px var(--banner-glow-1);
     }
-}
+} */
 
 .container {
     display: block;
