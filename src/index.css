@@ -15,4 +15,36 @@ body {
   background-attachment: fixed;
 }
 
+#mouse-cursor {
+  pointer-events :none;
+  z-index: 2;
+  background-color: rgb(173, 56, 56);
+  height: 500px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(0, 255, 60), rgb(255, 255, 255));
+  animation: rotate 20s infinite;
+  opacity: 0.8;
+  filter: blur(200px);
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.5;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
+
 

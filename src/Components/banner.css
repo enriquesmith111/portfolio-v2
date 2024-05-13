@@ -1,4 +1,5 @@
 .banner {
+    z-index: 3;
     background-color: rgba(0, 0, 0, 1);  
     backdrop-filter: blur(5px);
     display: flex;
@@ -8,6 +9,7 @@
 }
 
 .banner h1 { 
+    z-index: 3;
     color: rgb(182, 251, 201);
     font-size: 6rem;
     font-family: "Roboto Mono", monospace;
@@ -17,8 +19,20 @@
     animation: glow 1s ease-in-out infinite alternate;
 }
 
+.banner h1:hover {
+    color: rgb(255, 255, 255);
+
+}
+
 h2 {
-    font-size: 20px;
+    z-index: 3;;
+    color: rgb(182, 251, 201);
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 
@@ -29,4 +43,9 @@ h2 {
     to {
         text-shadow: 0 0 20px #96d395, 0 0 25px #4dff65, 0 0 30px #4dff6e, 0 0 35px #4dff6b;
     }
-  }
+}
+
+.container {
+    display: block;
+    line-height: 10px;
+}
