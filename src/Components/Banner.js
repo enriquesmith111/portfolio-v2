@@ -1,5 +1,3 @@
-import { useRef, useState, useEffect } from 'react'
-
 import './banner.css'
 import TextRandomizer from './TextRandomizer'
 
