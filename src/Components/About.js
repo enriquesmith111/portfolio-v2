@@ -78,7 +78,7 @@ function Skill() {
 
 function AboutImage() {
     return (
-        <div>
+        <div className='about-image'>
             <img className='laptop-image' src='laptop-code.png' alt='laptop' />
         </div>
     )

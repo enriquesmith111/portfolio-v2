@@ -13,8 +13,14 @@
 }
 
 h1 {
+    width: fit-content;
     font-family: 'Roboto Mono', monospace;
     color: var(--secondary-text-color);
+}
+
+h1:hover {
+    color: var(--primary-text-color);
+
 }
 
 p {
@@ -53,8 +59,24 @@ p {
 }
 
 .laptop-image {
+    position: relative;
     z-index: 3;
     height: 45rem;
     width: 45rem;
-    margin: -100px;
+    margin-top: -4rem;
+    margin-right: -150px;
+    color: radial-gradient(white 50% rgb(238, 238, 238) 80%);
+}
+
+.about-image {
+    animation-name: floating;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 30px); }
+    100%   { transform: translate(0, -0px); }    
 }

@@ -2,32 +2,34 @@ import React, { useState, useEffect, useRef } from 'react';
 
 
 const SkillHover = ({ initialText }) => {
-    const words = ['</HTML>', '</CSS>', '</Ruby>', '</Ruby on Rails>', '</PostgreSQL>', '</Sass>', '</Photoshop>', '</Javascript>', '</Typescript>', '</Bootstrap>', '</Heroku>', '</React>', '</Figma>', '</Canva>']
+    const words = ['</My Skills>', '</HTML>', '</CSS>', '</Ruby>', '</Ruby on Rails>', '</PostgreSQL>', '</Sass>', '</Photoshop>', '</Javascript>', '</Typescript>', '</Bootstrap>', '</Heroku>', '</React>', '</Figma>', '</Canva>']
     const letters = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'L', 'K', 'J', 'H', 'G', 'F', 'D', 'S', 'A', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'l', 'k', 'j', 'h', 'g', 'f', 'd', 's', 'a', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
-    const textRef = useRef(null);
+    const textRef = useRef(initialText);
     const [text, setText] = useState(initialText);
+    let i = 0
 
     const randomizeText = () => {
         let iterations = 0;
-
         const interval = setInterval(() => {
-            const textArray = text.split('').length;
+            const textArray = words[i].split('').length;
             const ranText = Array(textArray)
                 .fill(null)
                 .map((letter, index) => {
                     if (index < iterations) {
-                        return text[index];
+                        return textRef.current[index];
                     }
-
                     return letters[Math.floor(Math.random() * 52)]
                 })
                 .join("");
-            setText(ranText); // Call setText here to update the state
 
-            if (iterations >= text.length) clearInterval(interval)
+            textRef.current = words[i]
+            setText(ranText); // Call setText here to update the state
+            if (iterations >= words[i].length) clearInterval(interval)
 
             iterations += 1;
         }, 50)
+        i += 1
+        if (i >= 15) { i = 0 }
     };
 
     useEffect(() => {
