@@ -1,6 +1,6 @@
 import './about.css'
 import SkillHover from './SkillHover';
-import TextRandomizer from './TextRandomizer'; // Assuming TextRandomizer is in the same directory
+import TextRandomizer from './TextRandomizer';
 
 export default function About() {
     const hiddenElemets = document.querySelectorAll('.hidden')
