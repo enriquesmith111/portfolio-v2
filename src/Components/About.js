@@ -62,6 +62,7 @@ function Skill() {
                 <i class="devicon-postgresql-plain-wordmark icon"></i>
                 <i class="devicon-sass-original icon"></i>
                 <i class="devicon-photoshop-plain icon"></i>
+                <i class="devicon-git-plain icon"></i>
             </div>
             <div className='icons'>
                 <i class="devicon-javascript-plain icon"></i>
@@ -71,6 +72,7 @@ function Skill() {
                 <i class="devicon-react-original-wordmark icon"></i>
                 <i class="devicon-figma-plain icon"></i>
                 <i class="devicon-canva-original icon"></i>
+                <i class="devicon-github-original icon"></i>
             </div>
         </div>
     )

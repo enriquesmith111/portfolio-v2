@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 
 const SkillHover = ({ initialText }) => {
-    const words = ['</My Skills>', '</HTML>', '</CSS>', '</Ruby>', '</Ruby on Rails>', '</PostgreSQL>', '</Sass>', '</Photoshop>', '</Javascript>', '</Typescript>', '</Bootstrap>', '</Heroku>', '</React>', '</Figma>', '</Canva>']
+    const words = ['</My Skills>', '</HTML>', '</CSS>', '</Ruby>', '</Ruby on Rails>', '</PostgreSQL>', '</Sass>', '</Photoshop>', '</Git>', '</Javascript>', '</Typescript>', '</Bootstrap>', '</Heroku>', '</React>', '</Figma>', '</Canva>', '</Github>', '</And More!>']
     const letters = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'L', 'K', 'J', 'H', 'G', 'F', 'D', 'S', 'A', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'l', 'k', 'j', 'h', 'g', 'f', 'd', 's', 'a', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
     const textRef = useRef(initialText);
     const [text, setText] = useState(initialText);
@@ -29,7 +29,7 @@ const SkillHover = ({ initialText }) => {
             iterations += 1;
         }, 50)
         i += 1
-        if (i >= 15) { i = 0 }
+        if (i >= 18) { i = 0 }
     };
 
     useEffect(() => {

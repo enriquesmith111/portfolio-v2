@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const TextRandomizer = ({ initialText }) => {
+const TextRandomizer = ({ initialText, fontSize }) => {
     const letters = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'L', 'K', 'J', 'H', 'G', 'F', 'D', 'S', 'A', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'l', 'k', 'j', 'h', 'g', 'f', 'd', 's', 'a', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
     const textRef = useRef(null);
     const [text, setText] = useState(initialText);
@@ -43,8 +43,12 @@ const TextRandomizer = ({ initialText }) => {
         }
     }, []); // Empty dependency array for one-time effect setup // Re-run useEffect if randomizeOnHover changes
 
+    if (textRef.current) {
+        textRef.current.style.fontSize = `${fontSize}px`;
+    }
+
     return (
-        <h1 ref={textRef}>{text}</h1>
+        <h1 ref={textRef} style={{ fontSize: `${fontSize}px` }}>{text}</h1>
     );
 };
 

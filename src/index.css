@@ -5,32 +5,28 @@
 :root {
   --background-color: rgb(15, 15, 15);
   --banner-text-color: rgb(182, 251, 201);
-  /* --banner-glow-1: #c5ffce;
-  --banner-glow-2: #9efea6;
-  --banner-glow-3: #89ff89;
-  --banner-glow-4: #00e61b; */
   --primary-text-color: rgb(255, 255, 255);
   --secondary-text-color: rgb(169, 255, 193);
   --toggle-bg-color: rgb(182, 251, 201);
   --toggle-fg-color: rgb(39, 255, 100);
-  --mouse-bg-color: linear-gradient(to right, rgb(0, 255, 60), rgb(255, 167, 243));
+  --mouse-bg-color: linear-gradient(to right, rgb(0, 200, 47), rgb(200, 132, 191));
+  --timeline-bg-color: rgb(40, 40, 40);
 }
 
 [data-theme="light"] {
-  --background-color: rgb(255, 249, 239);
+  --background-color: rgb(255, 251, 244);
   --banner-text-color: rgb(67, 191, 102);
-  /* --banner-glow-1: #c5ffce;
-  --banner-glow-2: #9efea6;
-  --banner-glow-3: #89ff89;
-  --banner-glow-4: #00e61b; */
   --primary-text-color: rgb(0, 0, 0);
   --secondary-text-color: rgb(67, 191, 102);
   --toggle-bg-color: rgb(147, 200, 162);
   --toggle-fg-color: rgb(96, 255, 141);
   --mouse-bg-color: linear-gradient(to right, rgb(0, 255, 60), rgb(255, 255, 255));
+  --timeline-bg-color: rgb(240, 236, 226);
+
 }
 
 html {
+  scroll-snap-type: y mandatory;
   margin: 0px;
   display: grid;
   min-height: 100%;
