@@ -20,7 +20,7 @@
   --secondary-text-color: rgb(67, 191, 102);
   --toggle-bg-color: rgb(147, 200, 162);
   --toggle-fg-color: rgb(96, 255, 141);
-  --mouse-bg-color: linear-gradient(to right, rgb(0, 255, 60), rgb(255, 255, 255));
+  --mouse-bg-color: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 255, 55));
   --timeline-bg-color: rgb(240, 236, 226);
 
 }
