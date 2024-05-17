@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import './how-started.css'
-import TextRandomizer from './TextRandomizer'
+import TextRandomizer from '../Components/TextRandomizer'
 
 export default function HowStarted() {
     return (

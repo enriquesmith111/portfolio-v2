@@ -38,6 +38,7 @@ html {
 }
 
 body {
+  cursor: url('/public/cursor.png'), auto;
   margin: 0px;
   height: 100vh;
   background-attachment: fixed;

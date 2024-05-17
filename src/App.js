@@ -1,5 +1,5 @@
 import './index.css';
-import Portfolio from './Components/Portfolio';
+import Portfolio from './Portfolio/Portfolio';
 import { Toggle } from './Components/Toggle';
 import { useEffect, useRef, useState } from 'react';
 import useLocalStorage from 'use-local-storage';

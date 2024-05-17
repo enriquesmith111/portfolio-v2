@@ -1,11 +1,11 @@
 import React from 'react';
 import './mokepon-project.css'
-import TextRandomizer from './TextRandomizer'
+import TextRandomizer from '../Components/TextRandomizer'
 
 export default function MokeponProject() {
     return (
         <div>
-            <div className='projects-container'>
+            <div className='project-container'>
                 <ProjectMokepon />
             </div>
         </div>
@@ -16,9 +16,7 @@ function ProjectMokepon() {
 
     return (
         <div className='mokepon-project'>
-            <div>
-                <ProjectText />
-            </div>
+            <ProjectText />
             <ProjectImage />
         </div>
     );
@@ -26,7 +24,7 @@ function ProjectMokepon() {
 
 function ProjectText() {
     return (
-        <div>
+        <div className='mokepon-text'>
             <TextRandomizer
                 initialText="</Mokepon>"
             />

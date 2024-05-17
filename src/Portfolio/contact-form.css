@@ -1,0 +1,42 @@
+.contact-container {
+    padding: 50px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+.form-container {
+    background-color: var(--timeline-bg-color);
+}
+
+.form {
+    padding: 2rem;
+    width: 36rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2.5rem;
+    min-width: 48%;
+}
+
+textarea {
+    height: 6rem;
+}
