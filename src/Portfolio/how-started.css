@@ -1,7 +1,7 @@
 .how-started-container {
     gap: 10rem;
     margin-left: 10rem;
-    padding: 50px;
+    padding: 60px;
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -12,6 +12,7 @@
 }
 
 .how-started-timeline {
+    margin-top: 1rem;
     margin-left: -10rem;
     gap: 20px;
     width: 30rem;
@@ -27,7 +28,7 @@
 .vertical-line {
     border-radius: 25%;
     background-image: linear-gradient(var(--background-color),var(--secondary-text-color),var(--background-color));
-    height: 40rem;
+    height: 35rem;
     width: 0.3rem;
 }
 
@@ -92,7 +93,8 @@
 }
 
 .left-timeline {
-    gap: 9rem;
+    margin-top: 4rem;
+    gap: 7rem;
     display: flex;
     flex-direction: column;
 }
@@ -114,7 +116,7 @@
 }
 
 .right-timeline {
-    margin-top: 8rem;
+    margin-top: 10rem;
     gap: 9rem;
     display: flex;
     flex-direction: column;

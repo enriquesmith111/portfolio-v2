@@ -1,8 +1,8 @@
 .toggle-container {
+    margin-top: -5px;
     z-index: 3;
     position: absolute;
-    top: 1em;
-    right: 2em;
+    right: 3.5em;
 }
 
 .toggle {

@@ -1,0 +1,50 @@
+header {
+    z-index: 3;
+    margin: 0vh 0vw 0vh 0vw;
+    display: flex;
+    position: absolute;
+    position: sticky;
+    top: 0vh;
+    height: 11vh;
+    width: 100vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: var(--primary-text-color);
+}
+
+header h1:hover {
+    color: var(--secondary-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 400;
+}
+
+a:hover {
+    color: var(--secondary-text-color);
+}
+
+.header-enrique {
+    position: relative;
+    top: 0.5rem;
+    left: 3rem;
+}
+
+.header-links {
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    top: 1.5rem;
+    right: 15rem;
+}
+
+.header-links h3 {
+    text-decoration: none;
+    z-index: 3;
+    padding: 0vh 1vw 0vh 1vw;
+}

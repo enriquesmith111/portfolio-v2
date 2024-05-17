@@ -1,8 +1,9 @@
 import './index.css';
 import Portfolio from './Portfolio/Portfolio';
-import { Toggle } from './Components/Toggle';
+import Header from './Components/Header';
 import { useEffect, useRef, useState } from 'react';
 import useLocalStorage from 'use-local-storage';
+import Footer from './Components/Footer';
 
 function App() {
   const preference = window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -44,7 +45,7 @@ function App() {
 
   return (
     <div className="App" data-theme={isLight ? 'light' : 'dark'}>
-      <Toggle
+      <Header
         isChecked={isLight}
         handleChange={() => setIsLight(!isLight)} />
       < Portfolio />

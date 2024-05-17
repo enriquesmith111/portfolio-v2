@@ -26,6 +26,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   margin: 0px;
   display: grid;

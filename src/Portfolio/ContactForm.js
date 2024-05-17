@@ -1,12 +1,18 @@
 import './contact-form.css'
 import TextRandomizer from '../Components/TextRandomizer'
 import { useEffect, useState } from 'react';
+import Footer from '../Components/Footer';
 
 export default function ContactSection() {
     return (
-        <div className='contact-container'>
-            <ContactText />
-            <ContactForm />
+        <div>
+            <div className='contact-container'>
+                <div className='contact-text-image'>
+                    <ContactText />
+                    <ContactImage />
+                </div>
+                <ContactForm />
+            </div>
         </div>
     )
 }
@@ -21,6 +27,30 @@ function ContactText() {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda officia vitae nobis maiores tenetur modi a excepturi reiciendis deleniti. Quos, neque cum! At corporis ut, cumque ea excepturi rem?</p>
             </>
         </div>
+    )
+}
+
+function ContactImage() {
+    return (
+        <div className='contact-image'>
+            <img className='first-contact-image' src='portrait.jpg' alt='portait' />
+            <div className='contact-links'>
+                <div class="link">
+                    <i class="fa fa-envelope"></i>
+                    <h3><a href="mailto:enriquesmith111@gmail.com" target="_blank" rel="noreferrer">Email</a></h3>
+                </div>
+                <div class="link">
+                    <i class="devicon-linkedin-plain"></i>
+                    <h3><a href="https://www.linkedin.com/in/enrique-smith-dean/" target="_blank" rel="noreferrer">LinkedIn</a></h3>
+                </div>
+                <div class="link">
+                    <i class="devicon-github-original"></i>
+                    <h3><a href="https://github.com/enriquesmith111" target="_blank" rel="noreferrer">Github</a></h3>
+                </div>
+            </div>
+        </div >
+
+
     )
 }
 

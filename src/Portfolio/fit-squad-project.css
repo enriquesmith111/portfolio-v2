@@ -23,9 +23,9 @@
 
 .fit-squad-project-image img {
     background-image: url('/public/fitsquad2.jpg');
-    background-size: 33rem;
+    background-size: 33.5rem;
     background-repeat: no-repeat;
-    background-position-x: 4.2rem;
-    background-position-y: 0.4rem;
+    background-position-x: 4rem;
+    background-position-y: 0.8rem;
     height: 25rem;
 }
