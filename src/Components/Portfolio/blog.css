@@ -1,0 +1,31 @@
+.blog-project-container {
+    padding: 100px;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+.blog-project {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.blog-project-image img {
+    background-image: url('/public/blog.png');
+    background-size: 33.5rem;
+    background-repeat: no-repeat;
+    background-position-x: 4rem;
+    background-position-y: 0.8rem;
+    height: 25rem;
+}

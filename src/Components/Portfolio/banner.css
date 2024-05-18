@@ -1,0 +1,52 @@
+@keyframes enlarge {
+    to {font-size: 10rem;}
+}
+
+@keyframes fade-out {
+    to {opacity: 0;}
+}
+
+.banner {
+    z-index: 3;
+    backdrop-filter: blur(5px);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-snap-stop: always;
+}
+
+.banner h1 { 
+    z-index: 3;
+    color: var(--banner-text-color);
+    font-size: 6rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    animation: enlarge linear;
+    animation-timeline: scroll();
+    animation-range-start: 0px;
+    animation-range-end: 28rem;
+}
+
+.banner h1:hover {
+    color: var(--primary-text-color);
+
+}
+
+h2 {
+    z-index: 3;;
+    color: var(--banner-text-color);
+    font-size: 1.2rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    animation: fade-out;
+    animation-timeline: scroll();
+
+}
+
+.container {
+    display: block;
+    line-height: 10px;
+}
