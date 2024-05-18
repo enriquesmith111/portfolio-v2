@@ -34,12 +34,13 @@ export default function Projects() {
 
     const handleNextProject = () => {
 
-        // Schedule class removal with timeout
+        // Schedule class removal
         currentContainer.classList.remove('show-project');
-        setTimeout(() => { // Adjust timeout as needed (in milliseconds)
-            currentContainer.classList.add('hidden-project');
-        }, 1000);
 
+        setTimeout(() => {
+            // Update ProjectIndex
+            setProjectIndex(newIndex);
+        }, 1000)
 
         // Schedule class addition with timeout (after removal)
         setTimeout(() => {
@@ -49,16 +50,12 @@ export default function Projects() {
                 currentContainer.classList.add('hidden-project');
             }
         }, 1000);
-        setTimeout(() => {
-            // Update ProjectIndex
-            setProjectIndex(newIndex);
-        }, 1000) // Adjust timeout slightly to ensure removal happens first
     };
 
 
     return (
         <div className='project-wrapper' >
-            <div className={`project-container ${ProjectIndex === projects[ProjectIndex].index ? 'show-project' : 'hidden-project'}`}>
+            <div id='project-container' className={`project-container ${ProjectIndex === projects[ProjectIndex].index ? 'show-project' : 'hidden-project'}`}>
                 {<ProjectText
                     projectObj={projects[ProjectIndex]}
                     key={projects[ProjectIndex].name}
@@ -77,24 +74,8 @@ export default function Projects() {
 }
 
 function ProjectText({ projectObj }) {
-    // const hiddenElemets = document.querySelectorAll('.hidden-project-text')
-
-
-    // const observer = new IntersectionObserver((entries) => {
-    //     entries.forEach((entry) => {
-
-    //         if (entry.isIntersecting) {
-    //             entry.target.classList.add('show-project-text')
-    //         } else {
-    //             entry.target.classList.remove('show-project-text')
-    //         }
-    //     });
-    // });
-
-    // hiddenElemets.forEach((el) => observer.observe(el));
-
     return (
-        <div className='project-text'>
+        <div id='project-text' className='project-text'>
             <TextRandomizer initialText={projectObj.name} />
             <p>{projectObj.description}</p>
         </div>

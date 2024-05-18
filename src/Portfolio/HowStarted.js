@@ -3,7 +3,7 @@ import TextRandomizer from '../Components/TextRandomizer'
 
 export default function HowStarted() {
     return (
-        <div className='how-started-container'>
+        <div id='how-started-container' className='how-started-container'>
             <div>
                 <Timeline />
             </div>

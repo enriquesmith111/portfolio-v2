@@ -15,9 +15,10 @@ export default function Header() {
                 /></a></h1>
             </div>
             <div class="header-links">
-                <h3><a href="#project-divider">Projects</a></h3>
-                <h3><a href="#contact-section">About</a></h3>
-                <h3><a href="#contact-section">Contact</a></h3>
+                <h3><a href="#about-container">About Me</a></h3>
+                <h3><a href="#how-started-container">Story</a></h3>
+                <h3><a href="#project-container">Projects</a></h3>
+                <h3><a href="#contact-container">Contact</a></h3>
             </div>
             <Toggle isChecked={isLight}
                 handleChange={() => setIsLight(!isLight)} />

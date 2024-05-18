@@ -19,7 +19,7 @@ export default function About() {
     hiddenElemets.forEach((el) => observer.observe(el));
 
     return (
-        <div className='about-container' >
+        <div id='about-container' className='about-container' >
             <div className='about-text hidden' >
                 <AboutText className='hidden' />
                 <Skills className='hidden' />

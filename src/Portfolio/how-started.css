@@ -12,7 +12,6 @@
 }
 
 .how-started-timeline {
-    margin-top: 1rem;
     margin-left: -10rem;
     gap: 20px;
     width: 30rem;
@@ -28,73 +27,12 @@
 .vertical-line {
     border-radius: 25%;
     background-image: linear-gradient(var(--background-color),var(--secondary-text-color),var(--background-color));
-    height: 35rem;
+    height: 30rem;
     width: 0.3rem;
 }
 
-.circle-button {
-    display: none;
-}
-
-.circle {
-    position: relative;
-    top: 33rem;
-    right: -1.9rem;
-    z-index: 3;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    background-color: var(--secondary-text-color);
-}
-
-
-.circle:nth-child(2) {
-    position: relative;
-    top: 25rem;
-    right: -1.9rem;
-    z-index: 3;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    background-color: var(--secondary-text-color);
-}
-
-.circle:nth-child(3) {
-    position: relative;
-    top: 15rem;
-    right: -1.9rem;
-    z-index: 3;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    background-color: var(--secondary-text-color);
-}
-
-.circle:nth-child(4) {
-    position: relative;
-    top: 5rem;
-    right: -1.9rem;
-    z-index: 3;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    background-color: var(--secondary-text-color);
-}
-
-.circle:nth-child(5) {
-    position: relative;
-    top: -4rem;
-    right: -1.9rem;
-    z-index: 3;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    background-color: var(--secondary-text-color);
-}
-
 .left-timeline {
-    margin-top: 4rem;
-    gap: 7rem;
+    gap: 5rem;
     display: flex;
     flex-direction: column;
 }
@@ -116,10 +54,10 @@
 }
 
 .right-timeline {
-    margin-top: 10rem;
-    gap: 9rem;
+    gap: 5rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .timeline-box{
@@ -162,7 +100,7 @@
 
 .show-line {
     opacity: 1;
-    height: 40rem;
+    height: 30rem;
 }
 
 .show {

@@ -6,7 +6,7 @@ import Footer from '../Components/Footer';
 export default function ContactSection() {
     return (
         <div>
-            <div className='contact-container'>
+            <div id='contact-container' className='contact-container'>
                 <div className='contact-text-image'>
                     <ContactText />
                     <ContactImage />
