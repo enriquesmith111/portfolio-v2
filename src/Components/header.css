@@ -11,6 +11,7 @@ header {
 }
 
 header h1 {
+    margin-top: 1.5rem;
     font-size: 2rem;
     color: var(--primary-text-color);
 }
@@ -31,15 +32,14 @@ a:hover {
 
 .header-enrique {
     position: relative;
-    top: 0.5rem;
     left: 3rem;
 }
 
 .header-links {
+    margin-top: 1rem;
     z-index: 3;
     position: absolute;
     display: flex;
-    top: 1.5rem;
     right: 15rem;
 }
 
