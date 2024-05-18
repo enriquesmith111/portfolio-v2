@@ -3,7 +3,6 @@ import Portfolio from './Portfolio/Portfolio';
 import Header from './Components/Header';
 import { useEffect, useRef, useState } from 'react';
 import useLocalStorage from 'use-local-storage';
-import Footer from './Components/Footer';
 
 function App() {
   const preference = window.matchMedia("(prefers-color-scheme: dark)").matches

@@ -9,7 +9,7 @@ export default function Banner() {
                 <TextRandomizer
                     initialText={'</Hello World>'}
                 />
-                <h2>I'm a web developer</h2>
+                <h2>I'm a web developer!</h2>
             </div>
         </div >
     )

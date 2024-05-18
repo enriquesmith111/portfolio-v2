@@ -35,7 +35,7 @@ function AboutText() {
             <TextRandomizer
                 initialText="</About Me>"
             />
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis earum perferendis, saepe aliquid culpa ut delectus officia laborum in non amet nemo atque quibusdam dolorem ad impedit, vitae velit voluptates aspernatur eos nesciunt maiores. Numquam repellat atque unde delectus deserunt distinctio, exercitationem perferendis, vero corrupti facilis sed quae eum, quibusdam ducimus mollitia. Natus eos rem praesentium est quos incidunt aut quisquam tempore ipsam doloremque, illo recusandae iusto sed blanditiis dignissimos fuga voluptas laborum molestias optio, deserunt eius! Dignissimos ipsa qui, magnam, tempora vel placeat inventore suscipit mollitia maxime quam eveniet natus error. Quos, in consequuntur totam ducimus maiores harum quod?</p>
+            <p>Driven React.js developer, crafting innovative web solutions with a user-centric approach.  My passion for technology extends beyond code, fueling my constant exploration of new languages and frameworks.  When I'm not coding, I explore the world, seeking new cultures and experiences that further inspire my creative problem-solving skills.</p>
         </>
     )
 }

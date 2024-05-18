@@ -10,9 +10,10 @@ export default function Header() {
     return (
         <header>
             <div class="header-enrique" id="header-enrique">
-                <h1><a href="#">            <TextRandomizer
-                    initialText="</Enrique>"
-                /></a></h1>
+                <h1><a href="#">
+                    <TextRandomizer
+                        initialText="</Enrique>"
+                    /></a></h1>
             </div>
             <div class="header-links">
                 <h3><a href="#about-container">About Me</a></h3>

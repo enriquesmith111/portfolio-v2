@@ -123,7 +123,7 @@ function HowStartedText() {
             <TextRandomizer
                 initialText="</How it Started>"
             />
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis earum perferendis, saepe aliquid culpa ut delectus officia laborum in non amet nemo atque quibusdam dolorem ad impedit, vitae velit voluptates aspernatur eos nesciunt maiores. Numquam repellat atque unde delectus deserunt distinctio, exercitationem perferendis, vero corrupti facilis sed quae eum, quibusdam ducimus mollitia. Natus eos rem praesentium est quos incidunt aut quisquam tempore ipsam doloremque, illo recusandae iusto sed blanditiis dignissimos fuga voluptas laborum molestias optio, deserunt eius! Dignissimos ipsa qui, magnam, tempora vel placeat inventore suscipit mollitia maxime quam eveniet natus error. Quos, in consequuntur totam ducimus maiores harum quod?</p>
+            <p>In 2018, I graduated from college in Tenerife (Canary Islands). A year later, I moved to London and thrived as a Supermarket Team Lead (2020-2021). But my true passion resided in the world of tech. In 2023, I enrolled in Le Wagon Bootcamp to pursue web development. There, I dove deep into Ruby and its powerful framework, Ruby on Rails. However, my hunger for programming knowledge didn't stop there. To further expand my skillset and become a well-rounded web developer, I tackled Javascript through Udemy in 2024. After perfecting my Javascript foundation, I recently added the popular front-end library, React.js, to my repertoire, to make this portfolio with. </p>
         </div>
     )
 }

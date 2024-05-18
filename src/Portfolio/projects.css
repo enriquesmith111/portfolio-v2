@@ -54,6 +54,15 @@
     height: 25rem;
 }
 
+.sea-and-b-image {
+    background-image: url('/public/Sea&B.png');
+    background-size: 33.5rem;
+    background-repeat: no-repeat;
+    background-position-x: 4rem;
+    background-position-y: 0.8rem;
+    height: 25rem;
+}
+
 .sprites {
     width: 30rem;
     display: flex;
@@ -65,14 +74,15 @@
 .hidden-project {
     opacity: 0;
     filter: blur(5px);
-    transform: translatex(100%);
-    transition: all 1s;
+    transform: translatex(200%);
+    transition: all 1.5s;
 }
 
 .show-project {
     opacity: 1;
     filter: blur(0px);
-    transform: translatey(0);
+    transform: translatex(0%);
+
 }
 
 .hidden-sprite {

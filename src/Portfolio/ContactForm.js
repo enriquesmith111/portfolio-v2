@@ -1,7 +1,5 @@
 import './contact-form.css'
 import TextRandomizer from '../Components/TextRandomizer'
-import { useEffect, useState } from 'react';
-import Footer from '../Components/Footer';
 
 export default function ContactSection() {
     return (
@@ -22,9 +20,11 @@ function ContactText() {
         <div>
             <>
                 <TextRandomizer
-                    initialText="</About Me>"
+                    initialText="</Let's Connect>"
                 />
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda officia vitae nobis maiores tenetur modi a excepturi reiciendis deleniti. Quos, neque cum! At corporis ut, cumque ea excepturi rem?</p>
+                <p>Feel free to follow me on LinkedIn, see more of my work or any upcoming projects I might be delving into on Github or even send me an Email enquiry about anything. :D</p>
+                <p>Regards,</p>
+                <p>Enrique Smith</p>
             </>
         </div>
     )
