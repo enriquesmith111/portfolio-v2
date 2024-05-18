@@ -34,8 +34,13 @@ export default function Projects() {
 
     const handleNextProject = () => {
 
-        // Schedule class removal
-        currentContainer.classList.remove('show-project');
+        // Schedule class removal with timeout
+        setTimeout(() => {
+            currentContainer.classList.remove('show-project');
+        }, 500);
+        setTimeout(() => { // Adjust timeout as needed (in milliseconds)
+            currentContainer.classList.add('hidden-project');
+        }, 500);
 
         setTimeout(() => {
             // Update ProjectIndex
