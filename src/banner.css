@@ -57,3 +57,10 @@ h2 {
         margin-bottom: 20rem;
     }
 }
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .banner {
+        height: 130vh;
+        margin-bottom: 20rem;
+    }
+}
