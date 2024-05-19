@@ -9,9 +9,22 @@
     scroll-snap-stop: always;
 }
 
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+    .about-container {
+        height: 180vh;
+        scroll-snap-align: flex-end;
+    }
+}
+
 .about-text {
     color: var(--primary-text-color);
     max-width: 50%;
+}
+
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+    .about-text {
+        margin-top: 18rem;
+    }
 }
 
 h1 {
@@ -41,11 +54,23 @@ p {
     gap: 20px;
     display: flex;
     height: 100px;
-    width: 50px;
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .icons {
+        gap: 15px;
+        height: 70px;
+    }
 }
 
 .icon {
     font-size: 4rem;
+}
+
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+    .icon {
+        font-size: 3rem;
+    }
 }
 
 .hidden {
@@ -68,6 +93,16 @@ p {
     width: 30rem;
     margin-top: -2rem;
     color: radial-gradient(white 50% rgb(238, 238, 238) 80%);
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .laptop-image {
+        margin-left: -15rem;
+        opacity: 0.3;
+        height: 50rem;
+        width: 35rem;
+        margin-top: 15rem;
+    }
 }
 
 .about-image {

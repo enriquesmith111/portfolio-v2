@@ -1,6 +1,6 @@
 import './index.css';
-import Portfolio from './Portfolio/Portfolio';
-import Header from './Components/Header';
+import Portfolio from './Portfolio';
+import Header from './Header';
 import { useEffect, useRef, useState } from 'react';
 import useLocalStorage from 'use-local-storage';
 

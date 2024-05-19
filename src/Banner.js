@@ -1,5 +1,5 @@
 import './banner.css'
-import TextRandomizer from '../Components/TextRandomizer'
+import TextRandomizer from './TextRandomizer'
 
 export default function Banner() {
 

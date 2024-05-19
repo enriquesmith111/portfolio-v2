@@ -11,8 +11,6 @@
   --toggle-fg-color: rgb(39, 255, 100);
   --mouse-bg-color: linear-gradient(to right, rgb(0, 200, 47), rgb(200, 132, 191));
   --timeline-bg-color: rgb(40, 40, 40);
-  --html-background-middle: rgb(6, 18, 10);
-  --html-background-sides: rgba(76, 183, 106, 0.5);
 }
 
 [data-theme="light"] {
@@ -24,12 +22,10 @@
   --toggle-fg-color: rgb(96, 255, 141);
   --mouse-bg-color: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 255, 55));
   --timeline-bg-color: rgb(240, 236, 226);
-  --html-background-middle: rgb(245, 255, 244); 
-  --html-background-sides: rgba(76, 183, 106, 0.5);
 }
 
 html {
-  background-color: var(--html-background-sides);
+  background-color: var(--background-color);
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   margin: 0px;
@@ -42,14 +38,7 @@ html {
   transition: background-color 0.25s ease-in-out;
 }
 
-@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
-  .App {
-    background: radial-gradient(var(--html-background-middle), var(--html-background-sides) )
-  }
-}
-
 body {
-  cursor: url('/public/cursor.png'), auto;
   margin: 0px;
   height: 100vh;
   background-attachment: fixed;
@@ -71,7 +60,7 @@ body {
   filter: blur(200px);
 }
 
-@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
   #mouse-cursor {
     background: transparent;
     filter: blur(0px);

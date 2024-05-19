@@ -50,3 +50,10 @@ h2 {
     display: block;
     line-height: 10px;
 }
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .banner {
+        height: 130vh;
+        margin-bottom: 50rem;
+    }
+}

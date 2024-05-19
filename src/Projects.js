@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './projects.css'
-import TextRandomizer from '../Components/TextRandomizer'
+import TextRandomizer from './TextRandomizer'
 
 const projectData = [
     {

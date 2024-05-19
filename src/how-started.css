@@ -11,12 +11,19 @@
     scroll-snap-stop: always;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .how-started-container {
+        margin-top: 100rem;
+    }
+}
+
 .how-started-timeline {
     margin-left: -10rem;
     gap: 20px;
     width: 30rem;
     display: flex;
 }
+
 
 .line-and-circles {
     display: flex;
@@ -31,14 +38,32 @@
     width: 0.3rem;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .vertical-line {
+        height: 25rem;
+    }
+}
+
 .left-timeline {
     gap: 5rem;
     display: flex;
     flex-direction: column;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .left-timeline {
+        gap: 4rem;
+    }
+}
+
 .left-timeline h1 {
     font-size: 15px;
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .left-timeline h1 {
+        font-size: 12px;
+    }
 }
 
 .left-timeline p {
@@ -60,6 +85,12 @@
     justify-content: center;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .right-timeline {
+        gap: 4rem;
+    }
+}
+
 .timeline-box{
     opacity: 1;
     display: flex;
@@ -69,6 +100,13 @@
     background-color: var(--timeline-bg-color);
     flex-direction: column;
     justify-content: center;
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .timeline-box {
+        height: 5rem;
+        width: 18rem;
+    }
 }
 
 .how-started-text {
@@ -101,6 +139,12 @@
 .show-line {
     opacity: 1;
     height: 30rem;
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .show-line {
+        height: 25rem;
+    }
 }
 
 .show {
