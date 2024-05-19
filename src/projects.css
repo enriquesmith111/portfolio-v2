@@ -12,6 +12,12 @@
     justify-content: space-around;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .project-container {
+        margin-top: 100rem;
+    }
+}
+
 .project-text {
     min-height: 31rem;
     display: flex;

@@ -24,6 +24,7 @@
 @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
     .about-text {
         margin-top: 18rem;
+        margin-left: 5rem;
     }
 }
 
@@ -97,8 +98,8 @@ p {
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .laptop-image {
-        margin-left: -15rem;
-        opacity: 0.3;
+        margin-left: 0rem;
+        opacity: 0.2;
         height: 50rem;
         width: 35rem;
         margin-top: 15rem;
