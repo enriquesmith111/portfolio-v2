@@ -12,17 +12,25 @@
     justify-content: space-around;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .project-container {
-        margin-top: 100rem;
+        margin-top: 20rem;
+        margin-right: -5rem;
     }
 }
 
 .project-text {
     min-height: 31rem;
+    min-width: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .project-text {
+        font-size: 13px;
+    }
 }
 
 
@@ -170,6 +178,13 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .btn-arrow {
+        top: -1rem;
+    }
+}
+
+
 .next-button {
     display: flex;
 }
@@ -179,4 +194,11 @@
     position: relative;
     top: -11rem;
     right: -1rem;
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3)  {
+    .next-button p {
+        top: -2.1rem;
+        right: -1.5rem;
+    }
 }
