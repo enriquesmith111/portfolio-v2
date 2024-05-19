@@ -18,6 +18,20 @@
     scroll-snap-stop: always;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .banner {
+        height: 130vh;
+        margin-bottom: 20rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .banner {
+        height: 80vh;
+        margin-bottom: 20rem;
+    }
+}
+
 .banner h1 { 
     z-index: 3;
     color: var(--banner-text-color);
@@ -28,6 +42,12 @@
     animation-timeline: scroll();
     animation-range-start: 0px;
     animation-range-end: 28rem;
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .banner h1 {
+        font-size: 2.8rem;
+    }
 }
 
 .banner h1:hover {
@@ -51,16 +71,3 @@ h2 {
     line-height: 10px;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
-    .banner {
-        height: 130vh;
-        margin-bottom: 20rem;
-    }
-}
-
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
-    .banner {
-        height: 130vh;
-        margin-bottom: 20rem;
-    }
-}
