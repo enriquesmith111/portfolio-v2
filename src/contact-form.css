@@ -10,12 +10,28 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .contact-container {
+        margin-top: 20rem;
+        margin-right: -5rem;
+        gap: 2rem;
+    }
+}
+
 .contact-text-image {
     height: 32rem;
     min-height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .contact-text-image {
+        height: 24rem;
+        width: 35rem;
+        margin-top: -12rem;
+    }
 }
 
 .contact-image {
@@ -73,6 +89,14 @@ i {
     justify-content: space-evenly;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .form {
+        margin-top: -5rem;
+        height: 28rem;
+        width: 30rem;
+    }
+}
+
 .name-email {
     display: flex;
     flex-direction: row;
@@ -85,7 +109,7 @@ input {
     flex-direction: row;
     justify-content: space-between;
     height: 2.5rem;
-    min-width: 48%;
+    min-width: 47%;
 }
 
 textarea {
