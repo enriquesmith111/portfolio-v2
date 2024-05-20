@@ -13,7 +13,6 @@
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .project-container {
         margin-top: 20rem;
-        margin-right: -5rem;
     }
 }
 
@@ -62,9 +61,9 @@
 
 .mokepon-image {
     background-image: url('/public/mokepon.png');
-    background-size: 20rem;
+    background-size: 33.5rem;
     background-repeat: no-repeat;
-    background-position-x: 2.5rem;
+    background-position-x: 4rem;
     background-position-y: 0.4rem;
     height: 25rem;
 }
@@ -149,8 +148,6 @@
         width: 2.5rem;
     }
 }
-
-
 
 .hidden-project {
     opacity: 0;
@@ -247,7 +244,8 @@
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .btn-arrow {
-        top: -1rem;
+        top: -3rem;
+        right: -5rem
     }
 }
 
@@ -274,8 +272,8 @@
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3)  {
     .next-button p {
-        top: -2.1rem;
-        right: -1.5rem;
+        top: -4.1rem;
+        right: -6.5rem;
     }
 }
 
