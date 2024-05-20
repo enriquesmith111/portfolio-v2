@@ -27,6 +27,7 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .banner {
+        backdrop-filter: blur(0px);
         height: 80vh;
         
     }

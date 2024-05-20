@@ -11,13 +11,13 @@
     scroll-snap-stop: always;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .how-started-container {
         margin-top: 40rem;
     }
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .how-started-container {
         gap: 5rem;
         padding-inline: 30px;
@@ -34,7 +34,7 @@
     display: flex;
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .how-started-timeline {
         margin-left: 5.6rem;
     }
@@ -54,7 +54,7 @@
     width: 0.3rem;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .vertical-line {
         height: 25rem;
     }
@@ -66,13 +66,13 @@
     flex-direction: column;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .left-timeline {
         gap: 4rem;
     }
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .left-timeline {
         gap: 3rem;
     }
@@ -82,13 +82,13 @@
     font-size: 15px;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .left-timeline h1 {
         font-size: 12px;
     }
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .left-timeline h1 {
         font-size: 14px;
     }
@@ -102,13 +102,13 @@
     font-size: 15px;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .right-timeline h1 {
         font-size: 12px;
     }
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .right-timeline h1 {
         font-size: 14px;
     }
@@ -125,13 +125,13 @@
     justify-content: center;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .right-timeline {
         gap: 4rem;
     }
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .right-timeline {
         gap: 3rem;
     }
@@ -148,14 +148,14 @@
     justify-content: center;
 }
 
-@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .timeline-box {
         height: 5rem;
         width: 18rem;
     }
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .timeline-box {
         height: 10rem;
         width: 9.5rem;
@@ -167,14 +167,14 @@
     max-width: 40%;
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .how-started-text {
         margin-top: -5rem;
         max-width: 100%;
     }
 }
 
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .how-started-text h1 {
         font-size: 25px;
     }
