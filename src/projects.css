@@ -16,7 +16,20 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .project-container {
+        margin-top: 20rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .project-container {
+        margin-top: -10rem;
+        flex-direction: column;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .project-container {
         margin-top: -10rem;
         flex-direction: column;
@@ -36,7 +49,20 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .project-text {
+        font-size: 13px;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .project-text {
+        margin-bottom: -15rem;
+        font-size: 11px;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .project-text {
         margin-bottom: -15rem;
         font-size: 11px;
@@ -58,6 +84,13 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .project-images {
+        height: 10px;
+        margin-top: -16rem;
+    }
+}
+
 .mokepon-image {
     background-image: url('/public/mokepon.png');
     background-size: 33.5rem;
@@ -68,6 +101,14 @@
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .mokepon-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .mokepon-image {
         height: 15rem;
         background-size: 20rem;
@@ -92,6 +133,14 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .blog-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+    }
+}
+
 .fit-squad-image {
     background-image: url('/public/fitsquad2.jpg');
     background-size: 33.5rem;
@@ -102,6 +151,15 @@
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .fit-squad-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+        background-position-y: 0.5rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .fit-squad-image {
         height: 15rem;
         background-size: 20rem;
@@ -128,6 +186,15 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .sea-and-b-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+        background-position-y: 0.5rem;
+    }
+}
+
 .sprites {
     width: 30rem;
     display: flex;
@@ -142,7 +209,19 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .sprites {
+        width: 20rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .sprites img {
+        width: 2.5rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .sprites img {
         width: 2.5rem;
     }
@@ -249,7 +328,23 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .btn-arrow {
+        top: -4rem;
+        right: -5rem
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .btn-arrow {
+        width: 2.5rem;
+        height:2.5rem;
+        top: 3rem;
+        right: -10rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .btn-arrow {
         width: 2.5rem;
         height:2.5rem;
@@ -277,7 +372,21 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse)  {
+    .next-button p {
+        top: -5.1rem;
+        right: -6.5rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3)  {
+    .next-button p {
+        top: 1.6rem;
+        right: -11.5rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)  {
     .next-button p {
         top: 1.6rem;
         right: -11.5rem;

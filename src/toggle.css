@@ -14,6 +14,13 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .toggle-container {
+        margin-top: -0.3rem;
+        right: 2rem;
+    }
+}
+
 .toggle {
     visibility: hidden;
 }

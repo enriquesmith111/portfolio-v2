@@ -17,7 +17,23 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .how-started-container {
+        margin-top: 40rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .how-started-container {
+        gap: 5rem;
+        padding-inline: 30px;
+        margin-left: 0px;
+        margin-top: 25rem;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .how-started-container {
         gap: 5rem;
         padding-inline: 30px;
@@ -35,6 +51,12 @@
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .how-started-timeline {
+        margin-left: 5.6rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .how-started-timeline {
         margin-left: 5.6rem;
     }
@@ -60,6 +82,12 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .vertical-line {
+        height: 25rem;
+    }
+}
+
 .left-timeline {
     gap: 5rem;
     display: flex;
@@ -72,7 +100,19 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .left-timeline {
+        gap: 4rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .left-timeline {
+        gap: 3rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .left-timeline {
         gap: 3rem;
     }
@@ -88,7 +128,19 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .left-timeline h1 {
+        font-size: 12px;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .left-timeline h1 {
+        font-size: 14px;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .left-timeline h1 {
         font-size: 14px;
     }
@@ -108,7 +160,19 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .right-timeline h1 {
+        font-size: 12px;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .right-timeline h1 {
+        font-size: 14px;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .right-timeline h1 {
         font-size: 14px;
     }
@@ -131,7 +195,19 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .right-timeline {
+        gap: 4rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .right-timeline {
+        gap: 3rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .right-timeline {
         gap: 3rem;
     }
@@ -155,7 +231,21 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .timeline-box {
+        height: 5rem;
+        width: 18rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .timeline-box {
+        height: 10rem;
+        width: 9.5rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .timeline-box {
         height: 10rem;
         width: 9.5rem;
@@ -174,7 +264,20 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .how-started-text {
+        margin-top: -5rem;
+        max-width: 100%;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .how-started-text h1 {
+        font-size: 25px;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .how-started-text h1 {
         font-size: 25px;
     }
@@ -213,7 +316,19 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .show-line {
+        height: 25rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .show-line {
+        height: 40rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .show-line {
         height: 40rem;
     }

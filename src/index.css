@@ -41,7 +41,22 @@ html {
   }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+  html {
+    width: 150vw;
+    scroll-snap-type: none;
+  }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+  html {
+    overflow-x: hidden;
+    width: 100vw;
+    scroll-snap-type: none;
+  }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   html {
     overflow-x: hidden;
     width: 100vw;
@@ -61,6 +76,12 @@ html {
   }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+  .App {
+    width: 150vw;
+  }
+}
+
 body {
   width: 100vw;
   margin: 0px;
@@ -69,6 +90,13 @@ body {
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     width: 100vw;
     overflow-x: hidden;
@@ -98,6 +126,13 @@ body {
   }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+  #mouse-cursor {
+    background: transparent;
+    filter: blur(0px);
+  }
+}
+
 @media (orientation: portrait) {
   #mouse-cursor {
     background: transparent;
@@ -106,6 +141,12 @@ body {
 }
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+  p {
+    font-size: 13px;
+  }
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
   p {
     font-size: 13px;
   }

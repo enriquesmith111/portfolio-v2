@@ -25,7 +25,23 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .banner {
+        height: 130vh;
+        margin-bottom: 20rem;
+    }
+}
+
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .banner {
+        backdrop-filter: blur(0px);
+        height: 80vh;
+        
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .banner {
         backdrop-filter: blur(0px);
         height: 80vh;
@@ -46,6 +62,12 @@
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .banner h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .banner h1 {
         font-size: 2.8rem;
     }
@@ -73,6 +95,12 @@ h2 {
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .container {
+        overflow-x: scroll;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .container {
         overflow-x: scroll;
     }

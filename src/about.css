@@ -15,7 +15,20 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .about-container {
+        height: 120vh;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .about-container {
+        flex-direction: column;
+        height: 50vh;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .about-container {
         flex-direction: column;
         height: 50vh;
@@ -35,7 +48,21 @@
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .about-text {
+        margin-top: 18rem;
+        margin-left: 5rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .about-text {
+        margin-inline: -1000px;
+        max-width: 120%;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .about-text {
         margin-inline: -1000px;
         max-width: 120%;
@@ -78,7 +105,25 @@ p {
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .icons {
+        gap: 15px;
+        height: 70px;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .icons {
+        margin-inline: 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        height: 130px;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .icons {
         margin-inline: 20px;
         width: 100%;
@@ -99,7 +144,19 @@ p {
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .icon {
+        font-size: 3rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .icon {
+        font-size: 2.5rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .icon {
         font-size: 2.5rem;
     }
@@ -137,7 +194,23 @@ p {
     }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse) {
+    .laptop-image {
+        margin-left: 0rem;
+        opacity: 0.4;
+        height: 50rem;
+        width: 35rem;
+        margin-top: 15rem;
+    }
+}
+
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .laptop-image {
+display: none;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .laptop-image {
 display: none;
     }
