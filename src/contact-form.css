@@ -20,7 +20,7 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .contact-container {
-        margin-top: -10rem;
+        gap: 3rem;
         flex-direction: column;
     }
 }
@@ -43,8 +43,9 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .contact-text-image {
-        margin-top: 15rem;
+        justify-content: center;
         width: 100%;
+        margin-bottom: 1rem;
     }
 }
 
@@ -146,7 +147,7 @@ i {
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .form-container{
-        margin-top: 5rem;
+        margin-top: -5rem;
     }
 }
 
@@ -179,7 +180,6 @@ i {
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .form {
-        margin-top: -4rem;
         height: 12rem;
         width: 80%;
     }

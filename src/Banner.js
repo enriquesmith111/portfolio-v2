@@ -1,12 +1,13 @@
 import './banner.css'
-import TextRandomizer from './TextRandomizer'
+import BannerText from './BannerText'
+
 
 export default function Banner() {
 
     return (
         <div className='banner'>
             <div className='container'>
-                <TextRandomizer
+                <BannerText
                     initialText={'</Hello World>'}
                 />
                 <h2>I'm a web developer!</h2>

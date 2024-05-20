@@ -9,7 +9,7 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .toggle-container {
-        margin-top: -1.5rem;
+        margin-top: -0.3rem;
         right: 1rem
     }
 }

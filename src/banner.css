@@ -28,6 +28,7 @@
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .banner {
         height: 80vh;
+        
     }
 }
 
@@ -68,5 +69,11 @@ h2 {
 .container {
     display: block;
     line-height: 10px;
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .container {
+        overflow-x: scroll;
+    }
 }
 

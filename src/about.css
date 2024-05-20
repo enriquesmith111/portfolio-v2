@@ -18,7 +18,7 @@
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .about-container {
         flex-direction: column;
-        height: 80vh;
+        height: 50vh;
 
     }
 }
