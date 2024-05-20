@@ -18,7 +18,6 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .project-container {
-        margin-top: 20rem;
         flex-direction: column;
     }
 }
@@ -39,7 +38,6 @@
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .project-text {
         margin-bottom: -15rem;
-        width: 110%;
         font-size: 11px;
     }
 }
@@ -181,7 +179,8 @@
 /* Next Button Css */
 .btn-arrow {
     position: relative;
-    top: -10rem;
+    top: -14rem;
+    right: -4rem;
     color: transparent;
     display: block;
     position: relative;
@@ -244,7 +243,7 @@
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
     .btn-arrow {
-        top: -3rem;
+        top: -4rem;
         right: -5rem
     }
 }
@@ -266,13 +265,13 @@
 .next-button p {
     font-size: 1.5rem;
     position: relative;
-    top: -11rem;
-    right: -1rem;
+    top: -15rem;
+    right: -5.5rem;
 }
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3)  {
     .next-button p {
-        top: -4.1rem;
+        top: -5.1rem;
         right: -6.5rem;
     }
 }

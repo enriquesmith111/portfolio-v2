@@ -105,6 +105,18 @@ body {
   }
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+  p {
+    font-size: 13px;
+  }
+}
+
+@media (orientation: portrait) {
+  p {
+    font-size: 11.2px;
+  }
+}
+
 
 
 @keyframes rotate {
