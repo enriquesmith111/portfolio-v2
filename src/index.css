@@ -55,6 +55,12 @@ html {
   transition: background-color 0.25s ease-in-out;
 }
 
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+  .App {
+    width: 150vw;
+  }
+}
+
 body {
   width: 100vw;
   margin: 0px;

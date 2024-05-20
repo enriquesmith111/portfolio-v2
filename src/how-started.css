@@ -17,11 +17,26 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .how-started-container {
+        padding-inline: 30px;
+        margin-left: 0px;
+        margin-top: 20rem;
+        flex-direction: column;
+    }
+}
+
 .how-started-timeline {
     margin-left: -10rem;
     gap: 20px;
     width: 30rem;
     display: flex;
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .how-started-timeline {
+        margin-left: 5.6rem;
+    }
 }
 
 
@@ -56,6 +71,12 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .left-timeline {
+        gap: 3rem;
+    }
+}
+
 .left-timeline h1 {
     font-size: 15px;
 }
@@ -66,12 +87,30 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .left-timeline h1 {
+        font-size: 14px;
+    }
+}
+
 .left-timeline p {
     font-size: 12px;
 }
 
 .right-timeline h1 {
     font-size: 15px;
+}
+
+@media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .right-timeline h1 {
+        font-size: 12px;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .right-timeline h1 {
+        font-size: 14px;
+    }
 }
 
 .right-timeline p {
@@ -88,6 +127,12 @@
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .right-timeline {
         gap: 4rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .right-timeline {
+        gap: 3rem;
     }
 }
 
@@ -109,9 +154,29 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .timeline-box {
+        height: 10rem;
+        width: 9.5rem;
+    }
+}
+
 .how-started-text {
     color: var(--timeline-bg-color);
     max-width: 40%;
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .how-started-text {
+        margin-top: -5rem;
+        max-width: 100%;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .how-started-text h1 {
+        font-size: 25px;
+    }
 }
 
 /* timeline animations */

@@ -1,15 +1,13 @@
-.project-wrapper {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-    padding: 100px;
-}
 
 .project-container {
+    padding: 50px;
     display: flex;
     height: 100vh;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
@@ -19,9 +17,15 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .project-container {
+        margin-top: 20rem;
+        flex-direction: column;
+    }
+}
+
 .project-text {
     min-height: 31rem;
-    min-width: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +37,14 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .project-text {
+        margin-bottom: -15rem;
+        width: 110%;
+        font-size: 11px;
+    }
+}
+
 
 .project-images {
     display: flex;
@@ -41,13 +53,28 @@
     align-items: center;
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .project-images {
+        height: 10px;
+        margin-top: -20rem;
+    }
+}
+
 .mokepon-image {
     background-image: url('/public/mokepon.png');
-    background-size: 33.5rem;
+    background-size: 20rem;
     background-repeat: no-repeat;
-    background-position-x: 4rem;
+    background-position-x: 2.5rem;
     background-position-y: 0.4rem;
     height: 25rem;
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .mokepon-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+    }
 }
 
 .blog-image {
@@ -59,6 +86,14 @@
     height: 25rem;
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .blog-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+    }
+}
+
 .fit-squad-image {
     background-image: url('/public/fitsquad2.jpg');
     background-size: 33.5rem;
@@ -66,6 +101,15 @@
     background-position-x: 4rem;
     background-position-y: 0.8rem;
     height: 25rem;
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .fit-squad-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+        background-position-y: 0.5rem;
+    }
 }
 
 .sea-and-b-image {
@@ -77,6 +121,15 @@
     height: 25rem;
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .sea-and-b-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+        background-position-y: 0.5rem;
+    }
+}
+
 .sprites {
     width: 30rem;
     display: flex;
@@ -84,6 +137,20 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .sprites {
+        width: 20rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .sprites img {
+        width: 2.5rem;
+    }
+}
+
+
 
 .hidden-project {
     opacity: 0;
@@ -184,6 +251,15 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .btn-arrow {
+        width: 2rem;
+        height: 2rem;
+        top: 1rem;
+        right: -10rem;
+    }
+}
+
 
 .next-button {
     display: flex;
@@ -200,5 +276,12 @@
     .next-button p {
         top: -2.1rem;
         right: -1.5rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3)  {
+    .next-button p {
+        top: -0.6rem;
+        right: -11rem;
     }
 }
