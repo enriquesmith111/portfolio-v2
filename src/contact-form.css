@@ -180,6 +180,8 @@ i {
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .form {
+        justify-content: space-between;
+        align-items: stretch;
         height: 12rem;
         width: 80%;
     }

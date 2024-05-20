@@ -18,6 +18,7 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .project-container {
+        margin-top: -10rem;
         flex-direction: column;
     }
 }
@@ -53,7 +54,7 @@
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .project-images {
         height: 10px;
-        margin-top: -20rem;
+        margin-top: -16rem;
     }
 }
 
@@ -250,9 +251,9 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .btn-arrow {
-        width: 2rem;
-        height: 2rem;
-        top: 1rem;
+        width: 2.5rem;
+        height:2.5rem;
+        top: 3rem;
         right: -10rem;
     }
 }
@@ -278,7 +279,7 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3)  {
     .next-button p {
-        top: -0.6rem;
-        right: -11rem;
+        top: 1.6rem;
+        right: -11.5rem;
     }
 }

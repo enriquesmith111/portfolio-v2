@@ -19,10 +19,11 @@
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .how-started-container {
+        gap: 5rem;
         padding-inline: 30px;
         margin-left: 0px;
-        margin-top: 20rem;
-        flex-direction: column;
+        margin-top: 25rem;
+        flex-direction: column-reverse;
     }
 }
 
@@ -209,6 +210,12 @@
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .show-line {
         height: 25rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .show-line {
+        height: 40rem;
     }
 }
 
