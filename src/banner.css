@@ -49,17 +49,20 @@
     }
 }
 
+.banner h1.in-view {
+    font-size: 6rem;
+    opacity: 1; /* Target font size */
+}
+
 .banner h1 { 
     z-index: 3;
     color: var(--banner-text-color);
-    font-size: 6rem;
+    font-size: 9rem;
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
     animation: enlarge linear;
-    animation-duration: 1ms;
-    animation-timeline: scroll();
-    animation-range-start: 0rem;
-    animation-range-end: 28rem;
+    transition: all 3s;
+    opacity: 0.5;
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
