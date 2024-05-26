@@ -57,7 +57,7 @@
     font-weight: 600;
     animation: enlarge linear;
     animation-timeline: scroll();
-    animation-range-start: 0px;
+    animation-range-start: 0rem;
     animation-range-end: 28rem;
 }
 
