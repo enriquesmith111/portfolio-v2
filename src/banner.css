@@ -51,7 +51,6 @@
 
 .banner h1.in-view {
     font-size: 6rem;
-    opacity: 1; /* Target font size */
 }
 
 .banner h1 { 
@@ -62,7 +61,6 @@
     font-weight: 600;
     animation: enlarge linear;
     transition: all 3s;
-    opacity: 0.5;
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
