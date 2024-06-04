@@ -111,7 +111,7 @@ function Projectimage({ projectObj }) {
         entries.forEach((entry) => {
 
 
-            if (entry.isIntersecting && projectObj.index === 0) {
+            if (entry.isIntersecting && projectObj.index === 1) {
                 entry.target.classList.add('show-sprite')
             } else {
                 entry.target.classList.remove('show-sprite')
