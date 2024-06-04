@@ -40,11 +40,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.text-and-link i {
+.text-and-link a {
+    font-size: 25px;
     color: var(--banner-text-color);
+}
+
+.text-and-link a:hover {
+    color: var(--primary-text-color);
 }
 
 #vibrate {
