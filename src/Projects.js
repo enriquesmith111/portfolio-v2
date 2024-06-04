@@ -97,7 +97,10 @@ export default function Projects() {
 function ProjectText({ projectObj }) {
     return (
         <div id='project-text' className='project-text'>
-            <TextRandomizer initialText={projectObj.name} />
+            <div className='text-and-link'>
+                <TextRandomizer initialText={projectObj.name} />
+                <i class="fa-regular fa-globe"></i>
+            </div>
             <p>{projectObj.description}</p>
         </div>
     )
