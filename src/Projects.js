@@ -24,7 +24,6 @@ const projectData = [
         description: `Built a photography blog using React.js to showcase a portfolio of travel photographs and integrate a seamless e-commerce experience for print sales.
         Leveraged React's component-based architecture to create a dynamic and responsive user interface for displaying images and processing purchase transactions. Implemented a dedicated blog section to share travel stories and engage with a growing audience. This project demonstrates proficiency in React.js for building interactive web applications with e-commerce functionality.`,
         image: 'empty-laptop.png',
-        link: 'http://localhost:3001/portfolio-v2#project-container',
         index: 2,
         key: 'blog'
     },
@@ -103,7 +102,7 @@ function ProjectText({ projectObj }) {
         <div id='project-text' className='project-text'>
             <div className='text-and-link'>
                 <TextRandomizer initialText={projectObj.name} />
-                <a href={projectObj.link} target="_blank" class="fa-solid fa-up-right-from-square" id='vibrate' rel="noreferrer"> </a>
+                {projectObj.link && <a href={projectObj.link} target="_blank" class="fa-solid fa-up-right-from-square" id='vibrate' rel="noreferrer"> </a>}
             </div>
             <p>{projectObj.description}</p>
         </div>
