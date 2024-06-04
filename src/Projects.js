@@ -53,15 +53,15 @@ export default function Projects() {
         // Schedule class removal with timeout
         setTimeout(() => {
             currentContainer.classList.remove('show-project');
-        }, 500);
+        }, 400);
         setTimeout(() => { // Adjust timeout as needed (in milliseconds)
             currentContainer.classList.add('hidden-project');
-        }, 500);
+        }, 400);
 
         setTimeout(() => {
             // Update ProjectIndex
             setProjectIndex(newIndex);
-        }, 1000)
+        }, 800)
 
         // Schedule class addition with timeout (after removal)
         setTimeout(() => {
@@ -70,7 +70,7 @@ export default function Projects() {
             } else {
                 currentContainer.classList.add('hidden-project');
             }
-        }, 1000);
+        }, 800);
     };
 
 
