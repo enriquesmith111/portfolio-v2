@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .text-and-link a {
@@ -56,7 +56,7 @@
     z-index: 3;
     padding: 5px;
     border-radius: 10%;
-    animation:pulse 2000ms infinite;
+    animation:pulse 3000ms infinite;
 }
 
 @keyframes pulse{
@@ -64,7 +64,7 @@
         box-shadow:var(--secondary-text-color) 0 0 0 0;
     }
     99%{
-        box-shadow:#ff69b400 0 0 0 10px;
+        box-shadow:#ff69b400 0 0 0 7px;
     }
 }
 
