@@ -108,6 +108,14 @@
     }
 }
 
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .earth-roulette-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+    }
+}
+
 .mokepon-image {
     background-image: url('/public/mokepon.png');
     background-size: 33.5rem;
