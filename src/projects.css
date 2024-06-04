@@ -91,6 +91,23 @@
     }
 }
 
+.earth-roulette-image {
+    background-image: url('/public/mokepon.png');
+    background-size: 33.5rem;
+    background-repeat: no-repeat;
+    background-position-x: 4rem;
+    background-position-y: 0.4rem;
+    height: 25rem;
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .earth-roulette-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+    }
+}
+
 .mokepon-image {
     background-image: url('/public/mokepon.png');
     background-size: 33.5rem;
