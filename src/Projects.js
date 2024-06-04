@@ -6,7 +6,7 @@ const projectData = [
     {
         name: '</Earth Roulette>',
         description: 'Earth Roulette is a web application built with React.js that injects a touch of serendipity into travel planning. It utilizes various APIs to present users with a randomly chosen country, enticing them to explore new destinations. This project demonstrates my proficiency in React.js, API integration, and creating a user-friendly web application. Earth Roulette serves as a testament to my ability to leverage technology to promote exploration and facilitate travel planning, further enhanced by the engaging animations created with LottieFiles.',
-        image: 'earth-roulette.png',
+        image: 'empty-laptop.png',
         index: 0,
         key: 'earth-roulette'
     },
