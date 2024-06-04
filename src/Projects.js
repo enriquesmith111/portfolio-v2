@@ -99,7 +99,7 @@ function ProjectText({ projectObj }) {
         <div id='project-text' className='project-text'>
             <div className='text-and-link'>
                 <TextRandomizer initialText={projectObj.name} />
-                <i class="fa-regular fa-globe"></i>
+                <i className='fa-solid fa-up-right-from-square pulse-animation' id='vibrate'></i>
             </div>
             <p>{projectObj.description}</p>
         </div>
