@@ -5,9 +5,9 @@ import TextRandomizer from './TextRandomizer'
 const projectData = [
     {
         name: '</Earth Roulette>',
-        description: 'Earth Roulette is a web application built with React.js that injects a touch of serendipity into travel planning. It utilizes various APIs to present users with a randomly chosen country, enticing them to explore new destinations. This project demonstrates my proficiency in React.js, API integration, and creating a user-friendly web application. Earth Roulette serves as a testament to my ability to leverage technology to promote exploration and facilitate travel planning, further enhanced by the engaging animations created with LottieFiles.',
+        description: 'Earth Roulette is a web application built with React.js that injects a touch of serendipity into travel planning. It utilizes various APIs to present users with a randomly chosen country, enticing them to explore new destinations. This project showcases my proficiency in React.js, API integration, and creating a user-friendly web application. Earth Roulette takes it a step further by integrating OpenAI responses, providing users with a descriptive summary of the chosen country, including interesting facts and must-do activities. This enhances the user experience and fuels wanderlust. Earth Roulette serves as a testament to my ability to leverage technology to promote exploration and facilitate travel planning, further enhanced by the engaging animations created with LottieFiles.',
         image: 'empty-laptop.png',
-        link: 'https://enriquesmith111.github.io/EarthRoulette/',
+        link: 'https://earthroulette.net',
         index: 0,
         key: 'earth-roulette'
     },
