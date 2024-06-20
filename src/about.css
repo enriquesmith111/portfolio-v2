@@ -95,7 +95,7 @@ p {
 .icons {
     gap: 20px;
     display: flex;
-    height: 100px;
+    height: 90px;
 }
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
@@ -135,7 +135,7 @@ p {
 }
 
 .icon {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
 }
 
 @media (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
