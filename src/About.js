@@ -59,6 +59,7 @@ function Skill() {
                 <i class="devicon-css3-plain-wordmark icon"></i>
                 <i class="devicon-ruby-plain-wordmark icon"></i>
                 <i class="devicon-rails-plain-wordmark icon"></i>
+                <i class="devicon-nodejs-plain-wordmark icon"></i>
                 <i class="devicon-postgresql-plain-wordmark icon"></i>
                 <i class="devicon-sass-original icon"></i>
                 <i class="devicon-photoshop-plain icon"></i>
@@ -69,6 +70,7 @@ function Skill() {
                 <i class="devicon-typescript-plain icon"></i>
                 <i class="devicon-bootstrap-plain-wordmark icon"></i>
                 <i class="devicon-heroku-original-wordmark icon"></i>
+                <i class="devicon-netlify-plain icon"></i>
                 <i class="devicon-react-original-wordmark icon"></i>
                 <i class="devicon-figma-plain icon"></i>
                 <i class="devicon-canva-original icon"></i>
