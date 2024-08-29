@@ -12,7 +12,7 @@ const projectData = [
         key: 'earth-roulette'
     },
     {
-        name: '</AI-Podcasts>',
+        name: '</AI-Scripts>',
         description: 'I teamed up with a company that reached out needing help with the scripting for their Youtube podcast where they talk about finance topics with popular guests. After understanding their needs, I created AI-Scripts, a React.js web app designed to help individuals with podcast topics and guidance, users can type a general topic they might want to talk about and my AI script helper will return a list with guidance on different topics or discussions they can talk about on their podcast. Once the User is happy and has chosen a topic, they can ask further about this topic where the web app will display more in-depth conversations and discussion guidance from one sub-topic to the next for a more natural and fluid conversation on the podcast.',
         image: 'empty-laptop.png',
         link: 'https://ai-podcasts.netlify.app/',
