@@ -124,6 +124,8 @@
     }
 }
 
+/* earth roulette */
+
 .earth-roulette-image {
     background-image: url('/public/earth-roulette.png');
     background-size: 33.5rem;
@@ -151,6 +153,37 @@
     }
 }
 
+/* ai podcast  */
+
+.ai-podcast-image {
+    background-image: url('/public/ai-podcast.png');
+    background-size: 33.5rem;
+    background-repeat: no-repeat;
+    background-position-x: 4rem;
+    background-position-y: 0.8rem;
+    height: 25rem;
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+    .ai-podcast-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+        background-position-y: 0.4rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .ai-podcast-image {
+        height: 15rem;
+        background-size: 20rem;
+        background-position-x: 2.5rem;
+        background-position-y: 0.4rem;
+    }
+}
+
+/* mokepon */
+
 .mokepon-image {
     background-image: url('/public/mokepon.png');
     background-size: 33.5rem;
@@ -176,6 +209,8 @@
     }
 }
 
+/* blog */
+
 .blog-image {
     background-image: url('/public/blog.png');
     background-size: 33.5rem;
@@ -200,6 +235,8 @@
         background-position-x: 2.5rem;
     }
 }
+
+/* fit-squad */
 
 .fit-squad-image {
     background-image: url('/public/fitsquad2.jpg');
@@ -227,6 +264,8 @@
         background-position-y: 0.5rem;
     }
 }
+
+/* sea-and-b */
 
 .sea-and-b-image {
     background-image: url('/public/Sea&B.png');
