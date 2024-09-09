@@ -9,6 +9,8 @@ import ContactForm from './ContactForm';
 import './contact-form.css'
 import Projects from './Projects';
 import './projects.css'
+import Certificates from './Certificates';
+import "./certificates.css"
 
 export default function Portfolio() {
     return (
@@ -17,6 +19,7 @@ export default function Portfolio() {
             <About />
             <HowStarted />
             <Projects />
+            <Certificates />
             <ContactForm />
         </ >
     )
