@@ -182,10 +182,10 @@
     }
 }
 
-/* web-developer */
+/* web-development */
 
-.web-developer-image {
-    background-image: url('/public/web-developer.png');
+.web-development-image {
+    background-image: url('/public/web-development.png');
     background-size: 33.5rem;
     background-repeat: no-repeat;
     background-position-x: 4rem;
@@ -194,7 +194,7 @@
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
-    .web-developer-image {
+    .web-development-image {
         height: 15rem;
         background-size: 20rem;
         background-position-x: 2.5rem;
@@ -202,7 +202,7 @@
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    .web-developer-image {
+    .web-development-image {
         height: 15rem;
         background-size: 20rem;
         background-position-x: 2.5rem;
