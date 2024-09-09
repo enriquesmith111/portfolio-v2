@@ -19,7 +19,7 @@ export default function Portfolio() {
             <About />
             <HowStarted />
             <Projects />
-            <Certificates />
+            {/* <Certificates /> */}
             <ContactForm />
         </ >
     )
