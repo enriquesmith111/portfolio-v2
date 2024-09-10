@@ -127,7 +127,7 @@
 /* javascript */
 
 .javascript-image {
-    background-image: url('../public/javascript.png');
+    background-image: url('/src/images/javascript.png');
     background-size: 33.5rem;
     background-repeat: no-repeat;
     background-position-x: 4rem;
@@ -156,7 +156,7 @@
 /* british-computer-science-image  */
 
 .british-computer-science-image {
-    background-image: url('../public/british-computer-science.png');
+    background-image: url('/src/images/british-computer-science.png');
     background-size: 33.5rem;
     background-repeat: no-repeat;
     background-position-x: 4rem;
@@ -185,7 +185,7 @@
 /* web-develop */
 
 .web-develop-image {
-    background-image: url('../public/web-development.png');
+    background-image: url('/src/images/web-development.png');
     background-size: 33.5rem;
     background-repeat: no-repeat;
     background-position-x: 4rem;
@@ -212,7 +212,7 @@
 /* front-end-certificate */
 
 .front-end-image {
-    background-image: url('../public/front-end.png');
+    background-image: url('/src/images/front-end.png');
     background-size: 33.5rem;
     background-repeat: no-repeat;
     background-position-x: 4rem;

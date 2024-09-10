@@ -35,16 +35,16 @@ function ContactImage() {
         <div className='contact-image'>
             <img className='first-contact-image' src='portrait.jpg' alt='portait' />
             <div className='contact-links'>
-                <div class="link">
-                    <i class="fa fa-envelope"></i>
+                <div className="link">
+                    <i className="fa fa-envelope"></i>
                     <h3><a href="mailto:enriquesmith111@gmail.com" target="_blank" rel="noreferrer">Email</a></h3>
                 </div>
-                <div class="link">
-                    <i class="devicon-linkedin-plain"></i>
+                <div className="link">
+                    <i className="devicon-linkedin-plain"></i>
                     <h3><a href="https://www.linkedin.com/in/enrique-smith-dean/" target="_blank" rel="noreferrer">LinkedIn</a></h3>
                 </div>
-                <div class="link">
-                    <i class="devicon-github-original"></i>
+                <div className="link">
+                    <i className="devicon-github-original"></i>
                     <h3><a href="https://github.com/enriquesmith111" target="_blank" rel="noreferrer">Github</a></h3>
                 </div>
             </div>
@@ -57,7 +57,7 @@ function ContactImage() {
 function ContactForm() {
     return (
         <div className='contact-form-container'>
-            <div class="form-container">
+            <div className="form-container">
                 <form className='form' action="https://formspree.io/f/xgejrzyl" method="post">
                     <TextRandomizer initialText="</Contact Me>" />
                     <div className='name-email'>
@@ -66,7 +66,7 @@ function ContactForm() {
                     </div>
                     <input type='subject' name='subject' placeholder='Subject' />
                     <textarea name="message" placeholder="Message" required />
-                    <input class="form-submit" type="submit" value="Send" />
+                    <input className="form-submit" type="submit" value="Send" />
                 </form>
             </div>
         </div>

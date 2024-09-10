@@ -9,13 +9,13 @@ export default function Header() {
 
     return (
         <header>
-            <div class="header-enrique" id="header-enrique">
+            <div className="header-enrique" id="header-enrique">
                 <h1><a href="#">
                     <TextRandomizer
                         initialText="</Enrique>"
                     /></a></h1>
             </div>
-            <div class="header-links">
+            <div className="header-links">
                 <h3><a href="#about-container">About Me</a></h3>
                 <h3><a href="#how-started-container">Story</a></h3>
                 <h3><a href="#project-container">Projects</a></h3>

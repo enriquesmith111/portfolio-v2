@@ -54,27 +54,27 @@ function Skills() {
 function Skill() {
     return (
         <div>
-            <div class="icons">
-                <i class="devicon-html5-plain-wordmark icon"></i>
-                <i class="devicon-css3-plain-wordmark icon"></i>
-                <i class="devicon-ruby-plain-wordmark icon"></i>
-                <i class="devicon-rails-plain-wordmark icon"></i>
-                <i class="devicon-nodejs-plain-wordmark icon"></i>
-                <i class="devicon-postgresql-plain-wordmark icon"></i>
-                <i class="devicon-sass-original icon"></i>
-                <i class="devicon-photoshop-plain icon"></i>
-                <i class="devicon-git-plain icon"></i>
+            <div className="icons">
+                <i className="devicon-html5-plain-wordmark icon"></i>
+                <i className="devicon-css3-plain-wordmark icon"></i>
+                <i className="devicon-ruby-plain-wordmark icon"></i>
+                <i className="devicon-rails-plain-wordmark icon"></i>
+                <i className="devicon-nodejs-plain-wordmark icon"></i>
+                <i className="devicon-postgresql-plain-wordmark icon"></i>
+                <i className="devicon-sass-original icon"></i>
+                <i className="devicon-photoshop-plain icon"></i>
+                <i className="devicon-git-plain icon"></i>
             </div>
             <div className='icons'>
-                <i class="devicon-javascript-plain icon"></i>
-                <i class="devicon-typescript-plain icon"></i>
-                <i class="devicon-bootstrap-plain-wordmark icon"></i>
-                <i class="devicon-heroku-original-wordmark icon"></i>
-                <i class="devicon-netlify-plain icon"></i>
-                <i class="devicon-react-original-wordmark icon"></i>
-                <i class="devicon-figma-plain icon"></i>
-                <i class="devicon-canva-original icon"></i>
-                <i class="devicon-github-original icon"></i>
+                <i className="devicon-javascript-plain icon"></i>
+                <i className="devicon-typescript-plain icon"></i>
+                <i className="devicon-bootstrap-plain-wordmark icon"></i>
+                <i className="devicon-heroku-original-wordmark icon"></i>
+                <i className="devicon-netlify-plain icon"></i>
+                <i className="devicon-react-original-wordmark icon"></i>
+                <i className="devicon-figma-plain icon"></i>
+                <i className="devicon-canva-original icon"></i>
+                <i className="devicon-github-original icon"></i>
             </div>
         </div>
     )
