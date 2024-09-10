@@ -128,28 +128,18 @@
 
 .javascript-image {
     /* background-image: url('src/images/javascript.png'); */
-    background-size: 33.5rem;
-    background-repeat: no-repeat;
-    background-position-x: 4rem;
-    background-position-y: 0.8rem;
     height: 25rem;
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .javascript-image {
         height: 15rem;
-        background-size: 20rem;
-        background-position-x: 2.5rem;
-        background-position-y: 0.4rem;
     }
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .javascript-image {
         height: 15rem;
-        background-size: 20rem;
-        background-position-x: 2.5rem;
-        background-position-y: 0.4rem;
     }
 }
 
@@ -157,55 +147,37 @@
 
 .british-computer-science-image {
     /* background-image: url('src/images/british-computer-science.png'); */
-    background-size: 33.5rem;
-    background-repeat: no-repeat;
-    background-position-x: 4rem;
-    background-position-y: 0.8rem;
     height: 25rem;
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .british-computer-science-image {
         height: 15rem;
-        background-size: 20rem;
-        background-position-x: 2.5rem;
-        background-position-y: 0.4rem;
     }
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .british-computer-science-image {
         height: 15rem;
-        background-size: 20rem;
-        background-position-x: 2.5rem;
-        background-position-y: 0.4rem;
     }
 }
 
 /* web-develop */
 
-.web-develop-image {
+.web-development-image {
     /* background-image: url('src/images/web-development.png'); */
-    background-size: 33.5rem;
-    background-repeat: no-repeat;
-    background-position-x: 4rem;
-    background-position-y: 0.2rem;
     height: 25rem;
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .web-develop-image {
         height: 15rem;
-        background-size: 20rem;
-        background-position-x: 2.5rem;
     }
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .web-develop-image {
         height: 15rem;
-        background-size: 20rem;
-        background-position-x: 2.5rem;
     }
 }
 
@@ -213,26 +185,18 @@
 
 .front-end-image {
     /* background-image: url('src/images/front-end.png'); */
-    background-size: 33.5rem;
-    background-repeat: no-repeat;
-    background-position-x: 4rem;
-    background-position-y: 0.4rem;
     height: 25rem;
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .front-end-image {
         height: 15rem;
-        background-size: 20rem;
-        background-position-x: 2.5rem;
     }
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .front-end-image {
         height: 15rem;
-        background-size: 20rem;
-        background-position-x: 2.5rem;
     }
 }
 
