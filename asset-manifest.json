@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.1ca25457.css",
-    "main.js": "/portfolio-v2/static/js/main.915763fe.js",
+    "main.css": "/portfolio-v2/static/css/main.ada8dab6.css",
+    "main.js": "/portfolio-v2/static/js/main.64942519.js",
     "static/media/blog.png": "/portfolio-v2/static/media/blog.d5e7dffeeedf2e30c3c3.png",
-    "static/media/web-development.png": "/portfolio-v2/static/media/web-development.2dc262ab75abb15a66ec.png",
     "static/media/Sea&B.png": "/portfolio-v2/static/media/Sea&B.1c93eace060a7a14d710.png",
     "static/media/mokepon.png": "/portfolio-v2/static/media/mokepon.04cfc9c0d34620bd3a70.png",
     "static/media/ai-podcast.png": "/portfolio-v2/static/media/ai-podcast.630abc5ab6391c375ab4.png",
     "static/media/fitsquad2.jpg": "/portfolio-v2/static/media/fitsquad2.de8a07aaad0b484acc06.jpg",
-    "static/media/javascript.png": "/portfolio-v2/static/media/javascript.fb3634c120de1eca8bbf.png",
     "static/media/earth-roulette.png": "/portfolio-v2/static/media/earth-roulette.4a3aa563cba06e5f2a04.png",
-    "static/media/british-computer-science.png": "/portfolio-v2/static/media/british-computer-science.8756bffe4db8530c68d7.png",
     "index.html": "/portfolio-v2/index.html",
-    "main.1ca25457.css.map": "/portfolio-v2/static/css/main.1ca25457.css.map",
-    "main.915763fe.js.map": "/portfolio-v2/static/js/main.915763fe.js.map"
+    "main.ada8dab6.css.map": "/portfolio-v2/static/css/main.ada8dab6.css.map",
+    "main.64942519.js.map": "/portfolio-v2/static/js/main.64942519.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ca25457.css",
-    "static/js/main.915763fe.js"
+    "static/css/main.ada8dab6.css",
+    "static/js/main.64942519.js"
   ]
 }
