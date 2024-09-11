@@ -13,12 +13,14 @@ export default function Header() {
                 <h1><a href="#">
                     <TextRandomizer
                         initialText="</Enrique>"
-                    /></a></h1>
+                    /></a>
+                </h1>
             </div>
             <div className="header-links">
                 <h3><a href="#about-container">About Me</a></h3>
                 <h3><a href="#how-started-container">Story</a></h3>
                 <h3><a href="#project-container">Projects</a></h3>
+                <h3><a href="#certificate-container">Certificates</a></h3>
                 <h3><a href="#contact-container">Contact</a></h3>
             </div>
             <Toggle isChecked={isLight}
