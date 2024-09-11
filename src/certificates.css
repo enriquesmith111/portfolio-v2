@@ -263,6 +263,7 @@
 
 /* Next Button Css */
 .btn-arrow {
+    z-index: 5;
     position: relative;
     top: -14rem;
     right: -4rem;
@@ -360,6 +361,7 @@
 
 
 .next-button {
+    z-index: 5;
     display: flex;
 }
 
