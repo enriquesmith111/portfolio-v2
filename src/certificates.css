@@ -170,13 +170,13 @@
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
-    .web-develop-image {
+    .web-development-image {
         height: 15rem;
     }
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    .web-develop-image {
+    .web-development-image {
         height: 15rem;
     }
 }
