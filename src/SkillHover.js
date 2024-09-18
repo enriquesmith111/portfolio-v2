@@ -38,7 +38,7 @@ const SkillHover = ({ initialText }) => {
     }, []); // Empty dependency array for one-time effect setup // Re-run useEffect if randomizeOnHover changes
 
     return (
-        <h1 ref={textRef}>{text}</h1>
+        <h1 style={{ marginBottom: 40 }} ref={textRef}>{text}</h1>
     );
 };
 

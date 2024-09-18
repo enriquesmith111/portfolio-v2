@@ -58,14 +58,14 @@
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .about-text {
         margin-inline: -1000px;
-        max-width: 120%;
+        max-width: 130%;
     }
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .about-text {
         margin-inline: -1000px;
-        max-width: 120%;
+        max-width: 130%;
     }
 }
 
@@ -114,7 +114,8 @@ p {
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .icons {
-        margin-inline: 20px;
+        margin-top: 20px;
+        margin-inline: 40px;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -125,7 +126,8 @@ p {
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .icons {
-        margin-inline: 20px;
+        margin-top: 20px;
+        margin-inline: 40px;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
