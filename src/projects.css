@@ -460,17 +460,6 @@
     z-index: 5;
     display: flex;
 }
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3)  {
-    .next-button  {
-        margin-top: -1rem;
-    }
-}
-
-@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)  {
-    .next-button  {
-        margin-top: -1rem;
-    }
-}
 
 .next-button p {
     font-size: 1.5rem;
