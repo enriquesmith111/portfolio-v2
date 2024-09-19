@@ -91,7 +91,7 @@
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
     .project-text {
         width: 23rem;
-        margin-bottom: -15rem;
+        margin-bottom: -18rem;
         font-size: 11px;
     }
 }
@@ -99,7 +99,7 @@
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .project-text {
         width: 23rem;
-        margin-bottom: -15rem;
+        margin-bottom: -18rem;
         font-size: 11px;
     }
 }
@@ -459,6 +459,17 @@
 .next-button {
     z-index: 5;
     display: flex;
+}
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3)  {
+    .next-button  {
+        margin-top: -1rem;
+    }
+}
+
+@media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)  {
+    .next-button  {
+        margin-top: -1rem;
+    }
 }
 
 .next-button p {
