@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.5cd4c7e6.css",
-    "main.js": "/portfolio-v2/static/js/main.5e159d6e.js",
+    "main.css": "/portfolio-v2/static/css/main.36d25248.css",
+    "main.js": "/portfolio-v2/static/js/main.484cf394.js",
     "static/media/blog.png": "/portfolio-v2/static/media/blog.d5e7dffeeedf2e30c3c3.png",
     "static/media/Sea&B.png": "/portfolio-v2/static/media/Sea&B.1c93eace060a7a14d710.png",
     "static/media/mokepon.png": "/portfolio-v2/static/media/mokepon.04cfc9c0d34620bd3a70.png",
@@ -9,11 +9,11 @@
     "static/media/fitsquad2.jpg": "/portfolio-v2/static/media/fitsquad2.de8a07aaad0b484acc06.jpg",
     "static/media/earth-roulette.png": "/portfolio-v2/static/media/earth-roulette.4a3aa563cba06e5f2a04.png",
     "index.html": "/portfolio-v2/index.html",
-    "main.5cd4c7e6.css.map": "/portfolio-v2/static/css/main.5cd4c7e6.css.map",
-    "main.5e159d6e.js.map": "/portfolio-v2/static/js/main.5e159d6e.js.map"
+    "main.36d25248.css.map": "/portfolio-v2/static/css/main.36d25248.css.map",
+    "main.484cf394.js.map": "/portfolio-v2/static/js/main.484cf394.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd4c7e6.css",
-    "static/js/main.5e159d6e.js"
+    "static/css/main.36d25248.css",
+    "static/js/main.484cf394.js"
   ]
 }
