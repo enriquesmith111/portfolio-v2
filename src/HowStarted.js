@@ -64,19 +64,19 @@ function LeftTimeline() {
         <div className='left-timeline'>
             <div className='timeline-box hidden-timeline-left'>
                 <TextRandomizer
-                    initialText="</Learn React.js>"
+                    initialText="</React.js>"
                 />
                 <p>After perfecting Javascript i followed up with adding React.js to one of my many programming skills, 2024.</p>
             </div>
             <div className='timeline-box hidden-timeline-left'>
                 <TextRandomizer
-                    initialText="</Join Coding Bootcamp>"
+                    initialText="</Bootcamp>"
                 />
                 <p>Decided to pursue a career in Web Development with Le Wagon Bootcamp learning Ruby on Rails, 2023.</p>
             </div>
             <div className='timeline-box hidden-timeline-left'>
                 <TextRandomizer
-                    initialText="</Graduate College>"
+                    initialText="</College>"
                 />
                 <p>Graduated from college in Tenerife, Canary Islands, 2018 - 2019.</p>
             </div>
@@ -103,13 +103,13 @@ function RightTimeline() {
         <div className='right-timeline'>
             <div className='timeline-box hidden-timeline-right' >
                 <TextRandomizer
-                    initialText="</Learn Javascript>"
+                    initialText="</Javascript>"
                 />
                 <p>In the bootcamp we only learned basic Javascript so i decided to delve deeper after the bootcamp with Udemy, 2024.</p>
             </div>
             <div className='timeline-box hidden-timeline-right'>
                 <TextRandomizer
-                    initialText="</Move to London>"
+                    initialText="</London>"
                 />
                 <p>Moved to London a year after graduating and found a job as a Supermarket Team Lead, 2020 - 2021.</p>
             </div>

@@ -218,7 +218,7 @@
     display: flex;
     padding: 10px;
     height: 6rem;
-    width: 18rem;
+    width: 22vw;
     background-color: var(--timeline-bg-color);
     flex-direction: column;
     justify-content: center;
@@ -253,6 +253,7 @@
 }
 
 .how-started-text {
+    max-height: 36rem;
     color: var(--timeline-bg-color);
     max-width: 40%;
 }
