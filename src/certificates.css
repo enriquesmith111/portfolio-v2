@@ -110,6 +110,7 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
+    margin-left: 2rem;
 }
 
 @media (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
